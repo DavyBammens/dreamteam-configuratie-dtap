@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '.env' })
+require('dotenv').config({ path: '/opt/.env' })
 const app = require("./app");
 const port = process.env.PORT || 3000;
 
